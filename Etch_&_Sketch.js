@@ -1,5 +1,5 @@
 <script>
-function createT() {
+var createT() {
 
     //get the reference for table
     var tbl = document.getElementById("tbl");
