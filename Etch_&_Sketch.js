@@ -4,7 +4,7 @@ var id = 0;
 
 function create T() {
     
-} createT() {
+ 
 
     //get the reference for table
     var tbl = document.getElementById("tbl");
