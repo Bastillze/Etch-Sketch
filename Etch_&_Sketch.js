@@ -1,5 +1,10 @@
 <script>
-var createT() {
+
+var id = 0;
+
+function create T() {
+    
+} createT() {
 
     //get the reference for table
     var tbl = document.getElementById("tbl");
@@ -15,6 +20,7 @@ for(var c = 0; c < 5; c++)
 {
 
 // Create the table cells
+var cell = document.createElement("td");
 HTMLTableCellElement.width = "20px";
 HTMLTableCellElement.height = "20px"; 
 cell.id = id++;
