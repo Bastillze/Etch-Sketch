@@ -15,7 +15,7 @@ for(var r = 0; r< 15; r++)
     {
        var cell = document.createElement("td");
        cell.width = "20px";
-       cell.height = "20px;
+       cell.height = "20px";
        cell.id = id++;
        
        
