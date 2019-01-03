@@ -7,11 +7,11 @@ function createT() {
 //reference for table
 var tbl = document.getElementById("tbl");
 
-for(var r = 0; r< 5; r++)
+for(var r = 0; r< 15; r++)
 {
     var row = document.createElement("tr");
 
-    for(var c = 0; c < 5; c++)
+    for(var c = 0; c < 15; c++)
     {
        var cell = document.createElement("td");
        cell.width = "20px";
