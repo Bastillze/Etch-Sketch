@@ -1,4 +1,4 @@
-#container {
-grid-template: auto
+.grid-container {
+display: grid;
 
 }
