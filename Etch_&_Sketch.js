@@ -2,7 +2,7 @@
 
 function myGrid() {
     
-    const container = document.querySelector('#container');
+    const grid-container = document.querySelector('#container');
 
     for ( var i = 0; i < v; i++){
 
