@@ -1,21 +1,12 @@
 <script>
 
-function myGrid() {
+function changeColor(evt) {
     
-    const grid-container = document.querySelector('#container');
+    var clickedOn = evt.target;
 
-    for ( var i = 0; i < v; i++){
+    clickedOn.style.backgroundColor = '#f00';
 
-       var row = document.createElement('div');
-       row .className = "row";
-       for(var x = 1; x <= v; x++){
-
-
-        
-       }
-    }
 }
- 
+  mySquare.addEventListener('click',changeColor,false); 
 
-   
 </script>
